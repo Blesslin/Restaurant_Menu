@@ -1,0 +1,23 @@
+<div id="main-content" class="container">
+  <div class="jumbotron">
+    <img src="images/jumbotron_768.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
+  </div>
+  <div id="home-tiles" class="row">
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <a ui-sref="public.menu"><div id="menu-tile"><span>menu</span></div></a>
+    </div>
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <a ui-sref="public.menuitems({category: 'SP'})">
+        <div id="specials-tile"><span>specials</span></div>
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-12 col-xs-12">
+      <a href="https://www.google.co.in/maps/place/Wangs+Kitchen/@13.0364353,80.1704833,12z/data=!4m8!1m2!2m1!1swang's+kitchen!3m4!1s0x3a526668fcca5f1b:0x828e0c13814aef9b!8m2!3d13.0655421!4d80.2430627" target="_blank">
+        <div id="map-tile">
+          <iframe src="https://www.google.com/maps/embed?pb=!4m8!1m2!2m1!1swangs+kitchen!3m4!1s0x3a526424490a5003:0xa6bb26001af7fd41!8m2!3d13.0873896!4d80.2177695?hl=en-GB" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <span>map</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
